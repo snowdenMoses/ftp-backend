@@ -24,5 +24,5 @@ ENTRYPOINT ["entrypoint.sh"]
 # EXPOSE 3000
 
 # for single container docker
-EXPOSE 80
+EXPOSE 3000
 CMD ["bundle", "exec", "rails", "server"]
