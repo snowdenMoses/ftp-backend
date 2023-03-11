@@ -23,6 +23,7 @@ ENTRYPOINT ["entrypoint.sh"]
 # for multicontainer docker
 # EXPOSE 3000
 
+CMD ["bundle", "exec", "rails", "server"]
+
 # for single container docker
 EXPOSE 80
-CMD ["bundle", "exec", "rails", "server"]
