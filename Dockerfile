@@ -21,7 +21,7 @@ RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 
 # for multicontainer docker
-EXPOSE 3000
+# EXPOSE 3000
 
 # for single container docker
 EXPOSE 80
